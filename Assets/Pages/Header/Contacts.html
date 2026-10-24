@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./../../Styles/normalize.css">
+    <link rel="stylesheet" href="./../../Styles/header/contacts.css">
+    <script src="./../../js/burger.js" defer></script>
+    <title>Контакты · Кинокаталог</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./../../Logo/Logo.jpg" alt="Logo">
+            </div>
+            <div class="nav-links">
+                <a href="./../../../index.html">Главная</a>
+                <a href="./../../Pages/Header/Aboutus.html">О нас</a>
+                <a href="./../../Pages/Header/Contacts.html">Контакты</a>
+            </div>
+
+            <div class="burger">
+                <span></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="contact-section">
+        <h1>Контакты</h1>
+        <p>Мы всегда рады ответить на ваши вопросы и помочь с любыми запросами. Свяжитесь с нами через форму ниже или по
+            электронной почте.</p>
+
+        <form action="submit_form_url" method="post" class="contact-form">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+            <button type="submit">Отправить</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Если у вас возникли срочные вопросы, вы можете связаться с нами по телефону:</p>
+            <p><strong>Телефон:</strong> +38 (065) 7354-93-39</p>
+            <p><strong>Email:</strong> contact@example.com</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>

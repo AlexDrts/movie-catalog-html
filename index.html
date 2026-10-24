@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Styles/normalize.css">
+    <link rel="stylesheet" href="./Assets/Styles/style.css">
+    <script src="./Assets/js/slider.js" defer></script>
+    <script src="./Assets/js/burger.js" defer></script>
+    <title>Кинокаталог — фильмы, сериалы и аниме</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="./Assets/Logo/Logo.jpg" alt="Logo">
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="./Assets/Pages/Header/Aboutus.html">О нас</a>
+                <a href="./Assets/Pages/Header/Contacts.html">Контакты</a>
+            </div>
+
+            <div class="burger">
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section>
+            <h1>Может вас заинтересовать</h1>
+            <div class="slider" id="autoSlider">
+                <div class="slide-container active">
+                    <img src="./Assets/Image/Venom.jpg" alt="Image 1">
+                </div>
+                <div class="slide-container">
+                    <img src="./Assets/Image/Avatar 2.webp" alt="Image 2">
+                </div>
+                <div class="slide-container">
+                    <img src="./Assets/Image/bad boys.jpg" alt="Image 3">
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <h1>Добро пожаловать!</h1>
+            <p>Лучшие фильмы, сериалы и аниме разных жанров</p>
+
+            <div class="container">
+                <a href="./Assets/Pages/Comedy/Comedy.html">
+                    <div class="film-card comedy">
+                        <img src="./Assets/Image/Comedy preview.webp" alt="Comedy">
+                        <p>Комедии</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Fantasy/Fantasy.html">
+                    <div class="film-card fantasy">
+                        <img src="./Assets/Image/Fantasy preview.jpg" alt="Fantasy">
+                        <p>Фантастика</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Horror/Horror.html">
+                    <div class="film-card horror">
+                        <img src="./Assets/Image/Horror preview.jpg" alt="Horror">
+                        <p>Ужасы</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Action/Action.html">
+                    <div class="film-card action">
+                        <img src="./Assets/Image/Action preview.jpg" alt="Action">
+                        <p>Боевики</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="./Assets/Pages/Thriller/Thriller.html">
+                    <div class="film-card thriller">
+                        <img src="./Assets/Image/Thriller preview.webp" alt="Thriller">
+                        <p>Триллеры</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Mysticism/Mysticism.html">
+                    <div class="film-card mysticism">
+                        <img src="./Assets/Image/Mysticism preview.webp" alt="Mysticism">
+                        <p>Мистика</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Hystorical/Hystorical.html">
+                    <div class="film-card historical">
+                        <img src="./Assets/Image/Hystorical preview.webp" alt="Historical">
+                        <p>Исторические</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Drama/Drama.html">
+                    <div class="film-card drama">
+                        <img src="./Assets/Image/Drama preview.webp" alt="Drama">
+                        <p>Драма</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="./Assets/Pages/Serial/Serial.html">
+                    <div class="film-card serial">
+                        <img src="./Assets/Image/Serial preview.webp" alt="Serial">
+                        <p>Сериалы</p>
+                    </div>
+                </a>
+                <a href="./Assets/Pages/Anime/Anime.html">
+                    <div class="film-card anime">
+                        <img src="./Assets/Image/Anime.webp" alt="Anime">
+                        <p>Аниме</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Все права защищены.</p>
+    </footer>
+
+</body>
+
+
+</html>
