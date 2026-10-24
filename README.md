@@ -51,6 +51,6 @@ No build step — just open `index.html` in a browser.
 
 <div align="center">
 
-Exam project at IT STEP Academy · Made by [Alex](https://github.com/AlexDrts) 🌸
+Exam project at IT STEP Academy · Made by [Alex](https://github.com/AlexDrts) 😈
 
 </div>
